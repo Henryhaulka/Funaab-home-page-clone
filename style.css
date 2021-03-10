@@ -1,0 +1,541 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+.side1 img {
+  width: 300px;
+  padding: 0.8rem;
+}
+header {
+  background-color: rgb(18, 53, 18);
+}
+header .section1 {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+header .side2 {
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+  align-self: center;
+  justify-self: center;
+}
+.side2 a:hover {
+  text-decoration: none;
+}
+.sub-header2 {
+  width: 20%;
+  margin-left: auto;
+  padding-top: 1.5rem;
+}
+.sub-header2 input {
+  border: none;
+  outline: none;
+  border-left: 1px solid grey;
+}
+.sub-header {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 1rem;
+}
+#bar {
+  display: none;
+}
+
+#one {
+  background-color: white;
+  z-index: 2;
+  width: 100%;
+}
+
+#one a {
+  color: grey;
+  padding: 15px;
+}
+table th {
+  color: darkslateblue;
+  background-color: lightgrey;
+}
+#table td:hover {
+  border-left: 3px solid darkslateblue;
+}
+#table td {
+  width: 220px;
+}
+
+#table td a {
+  margin: 0;
+  padding: 0;
+}
+td a:hover {
+  text-decoration: none;
+}
+#roll {
+  width: 700px;
+}
+.contain {
+  height: 50rem;
+  background-image: url("https://i2.wp.com/unaab.edu.ng/wp-content/uploads/2018/08/ranking1.jpg");
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 0;
+  padding-top: 0;
+}
+.section2 {
+  display: grid;
+  grid-template-columns: 500px 1fr;
+}
+.sub1 {
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.5)
+  );
+
+  padding: 2rem;
+}
+.sub3 {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+.sub3 a {
+  color: rgb(21, 21, 92);
+}
+.sub3 a:hover {
+  text-decoration: none;
+  color: rgb(21, 21, 92);
+}
+.sub3 img {
+  width: 40px;
+  margin-top: 10px;
+}
+.sub1-1 {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(7, 7, 48);
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+details > summary {
+  list-style: none;
+  outline: none;
+  padding-top: 1.5rem;
+}
+.sub4 a {
+  color: rgb(21, 21, 92);
+}
+.sub4 a:hover {
+  text-decoration: none;
+  color: rgb(21, 21, 92);
+}
+summary h4 {
+  width: 80%;
+  font-size: large;
+  padding-top: 0;
+  margin-top: 0;
+}
+.sub4 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+}
+
+#iman {
+  width: 100%;
+  height: 400px;
+}
+.corn {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  width: 100%;
+  padding: 2rem;
+  margin-top: 3rem;
+  padding-bottom: 7rem;
+}
+
+.corn1 {
+  background-color: rgba(128, 128, 128, 0.5);
+  border: 4px solid rgb(18, 160, 18);
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgb(6, 66, 6);
+}
+.corn1 h5 {
+  font-size: 2rem;
+  border-bottom: 1px solid black;
+  padding-bottom: 6px;
+  font-weight: bold;
+  margin: 5px;
+  padding: 4px;
+}
+.corn1 p {
+  color: rgb(141, 12, 12);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.corn2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.corn2 button {
+  background-color: white;
+  padding: 10px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+}
+.corn2 img {
+  width: 160px;
+  height: 200px;
+  border-radius: 20px;
+}
+.corn3 {
+  padding-top: 20%;
+  justify-self: center;
+}
+.corn4 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, 60px);
+  padding: 20px;
+}
+.corn4 p {
+  background-color: rgba(164, 191, 202, 0.5);
+  font-size: 1.8rem;
+  align-self: center;
+  padding: 10px;
+}
+.corn4 a {
+  color: rgb(53, 53, 82);
+}
+.corn4 a:hover {
+  color: rgb(53, 53, 82);
+  text-decoration: none;
+}
+.maize1 {
+  display: grid;
+  grid-template-columns: repeat(3, 420px);
+  grid-gap: 30px;
+  padding: 2rem;
+}
+.maize h2 {
+  font-size: 5rem;
+  color: rgb(17, 17, 53);
+  text-align: center;
+  font-weight: bold;
+  padding-top: 1.5rem;
+}
+.maize1 img {
+  width: 420px;
+  height: 250px;
+  background-size: cover;
+}
+.maize1 h5 {
+  font-size: 2rem;
+  padding-top: 1.5rem;
+  font-weight: bold;
+}
+.maize1 a {
+  color: rgb(17, 17, 53);
+}
+.maize1 a:hover {
+  color: rgb(17, 17, 53);
+  text-decoration: none;
+}
+.maize3 {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+
+  width: 100%;
+  bottom: 0px;
+  padding: 7px;
+}
+
+.maize3 i {
+  color: rgb(23, 23, 143);
+  font-size: 2rem;
+}
+.maize3 p {
+  color: white;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+.maize2 {
+  position: relative;
+}
+.maize4 {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+}
+.maize5 {
+  color: grey;
+  font-size: 1.5rem;
+  padding-top: 0.7rem;
+}
+.maize6 {
+  padding-top: 2rem;
+}
+.maize6 a {
+  color: rgb(23, 23, 143);
+  font-weight: bold;
+}
+.maize6 a:hover {
+  color: rgb(23, 23, 143);
+  font-weight: bold;
+}
+.cream1 img {
+  width: 30px;
+  height: 25px;
+}
+.cream {
+  width: 95%;
+  margin: auto;
+  padding-top: 5rem;
+  overflow-y: scroll;
+  height: 400px;
+}
+.cream1 {
+  border: 1px solid lightgray;
+  padding: 2rem;
+}
+.cream3 {
+  display: flex;
+  justify-content: space-between;
+  width: 22%;
+  color: rgb(23, 23, 143);
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+.cream1 p {
+  color: rgb(19, 19, 83);
+  font-weight: bold;
+}
+.cream1 span {
+  color: grey;
+
+  font-size: small;
+}
+#do {
+  font-weight: bold;
+  padding-top: 1rem;
+}
+.cream5 {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5px;
+}
+
+.cream7 {
+  border-top: 1px solid lightgray;
+
+  padding-top: 0.7rem;
+  padding-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.cream7 p a {
+  color: grey;
+  font-size: small;
+}
+
+.cream7 a {
+  color: rgb(19, 19, 83);
+}
+
+@media screen and (max-width: 767px) {
+  .cream8 {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .cream3 {
+    width: 80%;
+  }
+
+  .cream {
+    overflow-y: none;
+    height: 100%;
+  }
+
+  .maize6 {
+    border-bottom: 2px solid rgb(32, 32, 80);
+    padding-bottom: 10px;
+    margin-right: 10px;
+  }
+
+  .maize1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+    padding: 1rem;
+  }
+
+  .maize1 img {
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+  }
+
+  .corn {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    width: 100%;
+    padding: 2rem;
+    margin-top: 12rem;
+    padding-top: 3rem;
+    padding-bottom: 7rem;
+  }
+  .corn3 {
+    padding-top: 0;
+    justify-self: center;
+    align-self: center;
+  }
+  #one {
+    display: none;
+  }
+  #iman {
+    width: 100%;
+    height: 200px;
+  }
+  summary h4 {
+    width: 80%;
+    font-size: medium;
+    padding-top: 0;
+    margin-top: 0;
+    font-weight: bold;
+  }
+
+  .sub3 {
+    padding: 0;
+    text-align: left;
+  }
+  .sub1-1 {
+    justify-content: space-between;
+  }
+  .section2 {
+    grid-template-columns: 1fr;
+  }
+  #bar {
+    margin-left: auto;
+    font-size: 2rem;
+    display: block;
+  }
+  .sub-header2 {
+    width: 70%;
+    margin-left: 0%;
+    padding: 0.2rem;
+  }
+  .sub-header1 {
+    background-color: rgb(255, 255, 255);
+    padding: 0.5rem;
+    display: flex;
+    margin-bottom: 2.2rem;
+  }
+  .sub-header {
+    width: 100%;
+    padding: 0.7rem;
+    background-color: gray;
+    padding-top: 0;
+  }
+  nav .section1 {
+    width: 90%;
+    margin: auto;
+    display: block;
+  }
+  .side1 img {
+    width: 300px;
+    padding: 1rem;
+    margin: auto;
+    display: block;
+  }
+  nav .side2 {
+    margin: auto;
+    width: 80%;
+    padding: 2rem;
+    display: block;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .maize3 i {
+    font-size: 1rem;
+  }
+  .maize3 p {
+    font-size: 1rem;
+  }
+  .maize4 {
+    width: 100%;
+  }
+
+  .cream8 {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .maize1 {
+    display: grid;
+    grid-template-columns: repeat(3, 230px);
+    grid-gap: 10px;
+    padding: 2rem;
+  }
+
+  .cream {
+    overflow-y: none;
+    height: 100%;
+  }
+
+  .maize1 img {
+    width: 230px;
+  }
+
+  #roll {
+    width: 500px;
+  }
+  .sub-header2 {
+    width: 30%;
+  }
+  .section2 {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+  }
+  #iman {
+    height: 450px;
+  }
+  .corn {
+    grid-gap: 5px;
+    margin-top: 10rem;
+  }
+  .corn2 img {
+    width: 70px;
+    height: 200px;
+    border-radius: 20px;
+  }
+  .corn1 h5 {
+    font-size: 1rem;
+    border-bottom: 1px solid black;
+    padding-bottom: 6px;
+    font-weight: bold;
+    margin: 5px;
+    padding: 2px;
+  }
+  .corn2 button {
+    padding: 5px;
+
+    font-size: xx-small;
+  }
+  .corn1 p {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+}
