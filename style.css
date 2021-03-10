@@ -52,6 +52,10 @@ header .side2 {
   width: 100%;
 }
 
+.book1 {
+  padding-top: 18rem;
+}
+
 #one a {
   color: grey;
   padding: 15px;
@@ -360,6 +364,10 @@ summary h4 {
   .cream3 {
     width: 80%;
   }
+
+  .book1 {
+  padding-top: 0;
+}
 
   .cream {
     overflow-y: none;
