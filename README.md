@@ -1,10 +1,8 @@
 # Funaab-home-page-clone
 
-# NETFLIX HOME PAGE CLONE
+![screenshot](img/funaab.png)
 
-![screenshot](img/netflix_image.png)
-
-This page is a clone of Netflix Home page. In this project we applied float,
+This page is a clone of The Federal University of Agriculture,Abeokuta, Nigeria website Home page. In this project we applied float,
 flexbox, grid and position and media queries for responsiveness.
 
 ## Built With
@@ -15,7 +13,7 @@ flexbox, grid and position and media queries for responsiveness.
 
 ## Live Demo
 
-[Live Demo Link](https://henryhaulka.github.io/Netflix_Homepage_Clone/)
+[Live Demo Link](https://henryhaulka.github.io/Funaab-home-page-clone/)
 
 ## Getting Started
 
@@ -38,7 +36,7 @@ flexbox, grid and position and media queries for responsiveness.
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Henryhaulka/Netflix_Homepage/issues).
+Feel free to check the [issues page](https://github.com/Henryhaulka/Funaab-home-page-clone/issues).
 
 ## Show your support
 
