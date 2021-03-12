@@ -53,7 +53,7 @@ header .side2 {
 }
 
 .book1 {
-  padding-top: 18rem;
+  padding-top: 22rem;
 }
 
 #one a {
@@ -237,6 +237,38 @@ summary h4 {
   font-weight: bold;
   padding-top: 1.5rem;
 }
+
+footer {
+  margin-top: 3rem;
+  background: linear-gradient(rgb(0, 128, 0, 0.8), rgb(0, 128, 0, 0.8)),
+    url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/k-159-chim-5156.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=1006605d5782ae4723a4545b0459cb08);
+  background-size: cover;
+  height: auto;
+}
+
+.footer1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  color: white;
+  padding-top: 7rem;
+  grid-gap: 50px;
+}
+
+.footer1 p {
+  font-size: 2rem;
+}
+
+.footer1 a {
+  color: white;
+}
+
+.footer1 h2,
+.footer1 a:hover {
+  color: rgb(62, 216, 62);
+  text-decoration: none;
+}
+
 .maize1 img {
   width: 420px;
   height: 250px;
@@ -346,6 +378,17 @@ summary h4 {
   font-weight: bold;
 }
 
+.copyright {
+  background-color: black;
+  padding: 10px;
+  color: white;
+  text-align: right;
+}
+
+.copyright span {
+  color: orangered;
+}
+
 .cream7 p a {
   color: grey;
   font-size: small;
@@ -366,8 +409,8 @@ summary h4 {
   }
 
   .book1 {
-  padding-top: 0;
-}
+    padding-top: 0;
+  }
 
   .cream {
     overflow-y: none;
@@ -430,7 +473,14 @@ summary h4 {
   .sub1-1 {
     justify-content: space-between;
   }
-  .section2 {
+
+  footer {
+    padding: 1rem;
+    height: auto;
+  }
+
+  .section2,
+  .footer1 {
     grid-template-columns: 1fr;
   }
   #bar {
@@ -481,8 +531,24 @@ summary h4 {
   .maize3 p {
     font-size: 1rem;
   }
+
+  header .side2 {
+    width: 30%;
+  }
   .maize4 {
     width: 100%;
+  }
+
+  .footer1 {
+    grid-gap: 15px;
+  }
+
+  .footer1 p {
+    font-size: 1.5rem;
+  }
+
+  .footer1 h1 {
+    font-size: 2.5rem;
   }
 
   .cream8 {
